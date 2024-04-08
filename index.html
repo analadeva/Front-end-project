@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brainster_Labs Ana Ladeva</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <!-- Latest compiled and minified Bootstrap 4.6 CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <!-- CSS script -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Latest Font-Awesome CDN -->
+        <script src="https://kit.fontawesome.com/3257d9ad29.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-md css-navbar css-nav-border">
+          <a
+            class="navbar-brand text-uppercase css-font mx-lg-5 px-lg-5 mt-lg-3 mb-lg-3 text-dark mx-2"
+            href="./index.html"
+            ><img
+              src="./images/Logo.png"
+              alt="Brainster Logo"
+              class="css-logo d-block mx-lg-2 mb-lg-1"
+            />Brainster</a
+          >
+          <button
+            class="navbar-toggler mx-2"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fas fa-signal fa-2x"></i></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a
+                  class="nav-link css-bold mx-lg-2 css-li"
+                  href="https://marketpreneurs.brainster.co/"
+                  target="_blank"
+                  >Академија за маркетинг
+                  <span class="sr-only"></span>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link css-bold mx-lg-2 css-li"
+                  href="https://codepreneurs.brainster.co/"
+                  target="_blank"
+                  >Академија за програмирање <span class="sr-only"></span>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link css-bold mx-lg-2 css-li"
+                  href="https://brainster.co/data-science/?gclid=EAIaIQobChMI7tWC8IX2_gIV9UeRBR0bcgoJEAAYASAAEgKG3vD_BwE"
+                  target="_blank"
+                  >Академија за data science <span class="sr-only"></span>
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link css-bold mx-lg-2 css-li"
+                  href="https://design.brainster.co/"
+                  target="_blank"
+                  >Академија за дизајн<span class="sr-only"></span>
+                </a>
+              </li>
+              <li>
+                <a
+                class="btn btn-danger mx-lg-4 mx-2 css__btn"
+                href="./form.html"
+                target="_blank">
+                Вработи наш студент</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  
+        <!-- COVER SECTION -->
+        <div class="cover d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class=" col-9 col-lg-5 auto">
+                <div class="rainbow mr-5 w-100">
+                  <img
+                    src="./images/image01.png"
+                    class="w-100 h-100 img__class"
+                    alt="group-work"
+                  />
+                </div>
+              </div>
+  
+              <div class="col-12 col-lg-7 pt-4">
+                <h1 class="text-uppercase m-0">
+                  Brainster Labs
+                </h1>
+                <h4 class="ball__animation--priority">
+                  Изгради ја твојата кариера од иднината!
+                </h4>
+                <p class="ball__animation--priority">
+                  Совладај ги најбараните вештини на денешницата преку работа на
+                  реални проекти за реални клиенти. Започни со градење на кариера
+                  или доквалификувај се во професионалецот кој сакаш да станеш
+                  преку нашите апликативни програми на академиите или на Бреинстер
+                  Некст колеџ.
+                </p>
+                <a
+                target="_blank"
+                  href="https://blog.brainster.co/"
+                  type="button"
+                  class="btn btn-outline-danger btn-sm btn-block ball__animation--priority"
+                  >За нас</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+  <main>
+      <!-- FILTERS SECTION -->
+
+      <div class="filters">
+        <input type="checkbox" id="filter-marketing" class="input3">
+        <label for="filter-marketing" class="label1">Проекти на студенти по академијата <br> за маркетинг <i class="fa-solid fa-circle-check"></i> </label>
+        <input type="checkbox" id="filter-coding">
+        <label for="filter-coding" class="label1">Проекти на студенти по академијата <br> за програмирање <i class="fa-solid fa-circle-check"></i>
+        </label> 
+        <input type="checkbox" id="filter-design" class="input2">
+        <label for="filter-design" class="label1">Проекти на студенти по академијата <br> за дизајн <i class="fa-solid fa-circle-check"></i>
+        </label> 
+         
+    </div>
+
+      <!-- CARDS SECTION -->
+<div class="section-card py-5">
+  <p class="font-weight-bold text-center h1">Проекти</p>
+
+  <div class="container">
+    <div class="cards mt-5">
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/desk-laptop_ICPTTVBVMQ.jpg" alt="laptop-pic" class=" w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card marketing mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/domain-seo_KIJQ4DNA7K.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за маркетинг</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal2" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card design mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/flower-white_H2333I0JEM.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за дизајн</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal3" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card marketing mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/macbook-laptop_WO8W4ZTI7M.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за маркетинг</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold pb-2">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal2" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://www.shutterstock.com/image-photo/software-source-code-programming-on-600w-634574354.jpg" alt="laptop-pic" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://www.shutterstock.com/image-photo/software-developer-programming-code-abstract-600w-234597538.jpg" alt="laptop-pic" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/woman-developer_HMPNPRBUJ7.jpg" alt="laptop-pic" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card marketing mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/book-report_G0V362YTA5.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за маркетинг</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal2" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/code-coding_402S0PDBGT.jpg" alt="laptop-pic" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card design mr-4 mb-5">
+      <img src="https://www.shutterstock.com/image-photo/graphic-designer-drawing-sketches-logo-600w-1575501976.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за дизајн</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal3" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/laptop-apple_UQ9AB8NRV9.jpg" alt="laptop-pic" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold pb-2">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card marketing mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/analytics-charts_UA9F6JGXXM.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за маркетинг</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold pb-2">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal2" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/computer-keyboard_A28WZDTYEY.jpg" alt="laptop-pic" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold pb-2">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card design mr-4 mb-5">
+      <img src="https://www.shutterstock.com/image-photo/logo-design-brand-designer-sketch-600w-530963695.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за дизајн</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal3" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/code-coding_MRF1628S9A.jpg" alt="laptop-pic" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold pb-2">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card marketing mr-4 mb-5">
+      <img src="https://www.shutterstock.com/image-photo/digital-marketing-media-website-ad-600w-1171378096.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за маркетинг</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal2" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/coding-business_DZ1EFM9PIK.jpg" alt="laptop-pic" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold pb-1">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card marketing mr-4 mb-5">
+      <img src="https://www.shutterstock.com/image-photo/concept-digital-marketing-media-website-600w-765947833.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за маркетинг</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal2" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card coding mr-4 mb-5">
+      <img src="https://cdn.stocksnap.io/img-thumbs/960w/coding-programming_SCC00WCQ3I.jpg" alt="laptop-pic" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-75 p-1 my-3">
+          <p class="m-0 text-center">Академија за програмирање</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal1" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+<a href="#" class="text-dark">
+    <div class=" border-radius shadow bg-white card design mr-4 mb-5">
+      <img src="https://www.shutterstock.com/image-photo/ideas-creative-occupation-design-studio-600w-434383288.jpg" alt="random image" class="w-100 border-radius1">
+      <div class="mx-3 pb-3">
+        <div class="bg-warning w-65 p-1 my-3">
+          <p class="m-0 text-center">Академија за дизајн</p>
+        </div>
+        <h5 class="font-weight-bold">Име на проектот стои овде во две линии</h5>
+        <p class="line__hight pt-1">Краток опис во кој студентите ќе можат да опишат за што се работи во проектот.</p>
+        <p class="small font-weight-bold">Април- Октомври 2019</p>
+           <div class="d-flex justify-content-end">
+        <a href="#" data-toggle="modal" data-target="#exampleModal3" class="small btn btn-danger text-ehite px-4 py-2 ">Дознај повеќе</a></div>
+      </div> 
+    </div>
+</a>
+  </div>
+  </div>
+</div>
+  </main>
+
+    <!-- FOOTER         -->
+    <footer> 
+<div class="bg-dark text-white text-center">
+<p class="small m-0 py-3">Изработено со ❤️ од Ана</p>
+</div>
+    </footer>
+
+              <!-- MODALS -->
+              <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Стани програмер!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="d-flex justify-content-between">
+                        <div class="mr-3">
+                        <img src="https://www.shutterstock.com/image-photo/developing-programmer-team-development-website-600w-1445888471.jpg" alt=" random image" class="w-100">
+                      </div>
+                        <p class="small text-left">
+                        <b>Времетраење:</b>  13 месеци <br>
+                        <b>Вклучува:</b>  PHP, Laravel, HTML5, CSS3, Bootstrap, JavaScript, jQuery, AJAX, SQL <br>
+                        <b>Добиваш:</b> <br>
+• 2 сертификати <br>
+• Работа на реални проекти <br>
+• Можност за пракса и вработување
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          
+              <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Дигитален Маркетинг</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="d-flex justify-content-between">
+                                <div class="mr-3">
+                                <img src="https://www.shutterstock.com/image-photo/businesswoman-hand-working-laptop-computer-600w-1041718081.jpg" alt="random image" class="w-100">
+                              </div>
+                                <p class="small text-left">
+                                 <b>Времетраење:</b> 6 месеци <br>
+                                 <b>Вклучува:</b> WordPress & Elementor, Facebook Ads manager, Google Ads manager, Google Analytics <br>
+                                 <b>Добиваш:</b> <br>
+                                  • 2 сертификати <br>
+                                  • Работа на реални проекти <br>
+                                  • Можност за пракса и вработување
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+          
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Графички дизајн</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="d-flex justify-content-between">
+                              <div class="mr-3">
+                              <img src="https://www.shutterstock.com/image-photo/graphic-design-studio-600w-695759755.jpg" alt="random image" class="w-100">
+                            </div>
+                              <p class="small text-left">
+                              <b>Времетраење: </b> 10 месеци <br>
+                              <b>Вклучува:</b> lllustrator, Photoshop, InDesign, Брендинг и лого дизајн, Постер дизајн, Дизајн на пакување, Motion design, After Effects <br>
+                              <b>Добиваш:</b> <br>
+                                • 2 сертификати <br>
+                                • Работа на реални проекти <br>
+                                • Можност за пракса и вработување
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="ha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        
+        <!-- Latest Compiled Bootstrap 4.6 JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+        <script>
+
+            document.querySelector("#filter-coding").addEventListener("change", filterCoding);
+            document.querySelector("#filter-design").addEventListener("change", filterDesign);
+            document.querySelector("#filter-marketing").addEventListener("change", filterMarketing);
+            
+    
+            function filterCoding() {
+                hideAllCards();
+    
+                if(document.querySelector("#filter-coding").checked) {
+                    var codingCards = document.querySelectorAll(".coding");
+                    codingCards.forEach(codingCard => {
+                        codingCard.style.display = "block";
+                    });
+    
+                    document.querySelector("#filter-design").checked = false;
+                    document.querySelector("#filter-marketing").checked = false;
+                } else {
+                    showAllCards();
+                }
+            }
+    
+            function filterDesign() {
+                hideAllCards();
+    
+                if(document.querySelector("#filter-design").checked) {
+                    var designCards = document.querySelectorAll(".design");
+                    designCards.forEach(designCard => {
+                        designCard.style.display = "block";
+                    });
+    
+                    document.querySelector("#filter-coding").checked = false;
+                    document.querySelector("#filter-marketing").checked = false;
+                } else {
+                    showAllCards();
+                }
+            }
+    
+            function filterMarketing() {
+                hideAllCards();
+    
+                if(document.querySelector("#filter-marketing").checked) {
+                    var marketingCards = document.querySelectorAll(".marketing");
+                    marketingCards.forEach(marketingCard => {
+                        marketingCard.style.display = "block";
+                    });
+    
+                    document.querySelector("#filter-design").checked = false;
+                    document.querySelector("#filter-coding").checked = false;
+                } else {
+                    showAllCards();
+                }
+            }
+           
+    
+            function hideAllCards() {
+                var allCards = document.querySelectorAll(".card");  
+    
+                allCards.forEach(card => {
+                    card.style.display = "none";
+                });
+            }
+    
+            function showAllCards() {
+                var allCards = document.querySelectorAll(".card");  
+    
+                allCards.forEach(card => {
+                    card.style.display = "inline-block";
+                });
+            }
+        </script>
+    </body>
+</html>

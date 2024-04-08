@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form section</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <!-- Latest compiled and minified Bootstrap 4.6 CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <!-- CSS script -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- Latest Font-Awesome CDN -->
+        <script src="https://kit.fontawesome.com/3257d9ad29.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+  <!-- NAVBAR -->
+ <nav class="navbar navbar-expand-md css-navbar css-nav-border">
+    <a class="navbar-brand text-uppercase css-font mx-lg-5 px-lg-5 mt-lg-3 mb-lg-3 text-dark mx-2"
+       href="./index.html"
+       ><img
+         src="./images/Logo.png"
+         alt="Brainster Logo"
+         class="css-logo d-block mx-lg-2 mb-lg-1"
+         />Brainster</a>
+    <button
+      class="navbar-toggler mx-2"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+  <span><i class="fas fa-signal fa-2x"></i></span>
+    </button>
+    <div
+    class="collapse navbar-collapse justify-content-end"
+    id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a
+          class="nav-link css-bold mx-lg-2 css-li"
+          href="https://marketpreneurs.brainster.co/"
+          target="_blank">
+          Академија за маркетинг
+        <span class="sr-only"></span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a
+          class="nav-link css-bold mx-lg-2 css-li"
+          href="https://codepreneurs.brainster.co/"
+          target="_blank">
+          Академија за програмирање <span class="sr-only"></span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a
+          class="nav-link css-bold mx-lg-2 css-li"
+          href="https://brainster.co/data-science/?gclid=EAIaIQobChMI7tWC8IX2_gIV9UeRBR0bcgoJEAAYASAAEgKG3vD_BwE"
+          target="_blank">
+          Академија за data science <span class="sr-only"></span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a
+          class="nav-link css-bold mx-lg-2 css-li"
+          href="https://design.brainster.co/"
+          target="_blank">
+          Академија за дизајн<span class="sr-only"></span>
+          </a>
+        </li>
+        <li>
+          <a
+          class="btn btn-danger mx-lg-4 mx-2 css__btn"
+          href="#"
+          target="_blank">
+          Вработи наш студент</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+        </header>
+
+        <main class="bg__color">
+  <!-- FORM SECTION -->
+<div class="container pt-5">
+    <h1 class="my-5 text-center font-weight-bold">Вработи студенти</h1>
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="font-weight-bold label3">Име и Презиме</label>
+    <input type="text" name="name_surname" class="form-control font-italic p-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Вашето име и презиме" required>
+  </div>
+      </div>
+
+      <div class="col-12 col-md-6">
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="font-weight-bold label3">Име на компанија</label>
+    <input type="text" name="name_company" class="form-control font-italic p-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Име на вашата компанија" required>
+  </div>
+      </div>
+
+</div>
+
+<div class="row">
+  <div class="col-12 col-md-6">
+<div class="form-group">
+<label for="exampleInputEmail1" class="font-weight-bold label3">Контакт имејл</label>
+<input type="email" name="mail" class="form-control font-italic p-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Контакт имејл на вашата компанија" required>
+</div>
+  </div>
+
+  <div class="col-12 col-md-6">
+<div class="form-group">
+<label for="exampleInputEmail1" class="font-weight-bold label3">Контакт телефон</label>
+<input type="number" name="phone_number" class="form-control font-italic p-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Контакт телефон на вашата компанија" required>
+</div>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="col-12 col-md-6">
+        <div class="form-group">
+          <label for="inputState" class="font-weight-bold label3">Тип на студенти</label>
+          <select id="inputState" class="form-control font-weight-bold hei">
+            <option>Изберете тип на студент</option>
+            <option>Студенти од маркетинг</option>
+            <option>Студенти од програмирање</option>
+            <option>Студенти од дизајн</option>
+            <option>Студенти од data science</option>
+          </select>
+        </div>
+    </div>
+   </form> 
+
+   <div class="col-12 col-md-6 pt-2">
+    <button type="submit" value="Submit" class="btn btn-danger btn-lg btn-block m__t text-uppercase p-3">Испрати</button>
+   </div>
+</div>
+
+
+
+</div>
+        </main>
+
+        <footer>
+          <div class="bg-dark text-white text-center">
+            <p class="small m-0 py-3">Изработено со ❤️ од Ана</p>
+        </footer>
+        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="ha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        
+        <!-- Latest Compiled Bootstrap 4.6 JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+   
+        <script>
+          function validateForm() {
+            let x = document.forms["myForm"]["fname"].value;
+            if (x == "") {
+              alert("Name must be filled out");
+              return false;
+            }
+          }
+          </script>
+   
+      </body>
+</html>

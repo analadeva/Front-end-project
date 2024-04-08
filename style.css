@@ -1,0 +1,209 @@
+a{
+  text-decoration:none!important;
+}
+.cover{
+  background: linear-gradient(rgba(205, 215, 19, 0.408), rgb(215, 172, 19));
+  height: 625px;
+  /* height: calc(100%- 127.7px); */
+  width: 100%;
+}
+.rainbow {
+  --angle: 0deg;
+  width: 50vmin;
+  height: 50vmin;
+  border: 7px solid;
+  border-image: conic-gradient(
+      from var(--angle),
+      yellow,
+      rgba(192, 215, 19, 0.659),
+      #edfe37,
+      rgba(187, 129, 20, 0.659),
+      rgba(0, 255, 0, 0.244),
+      #edfe37,
+      rgba(192, 215, 19, 0.659),
+      rgba(187, 129, 20, 0.659),
+      rgba(0, 255, 0, 0.244),
+      yellow
+    )
+    1;
+  animation: 10s rotate linear infinite;
+}
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+.css-navbar {
+  background-color: rgb(245, 210, 53);
+}
+.css-nav-border {
+  box-shadow: 0px 0px 5px 0px rgb(97, 97, 97);
+}
+.css-logo {
+  width: 50px;
+}
+.css-font {
+  font-size: 12px !important;
+  font-weight: 750 !important;
+}
+.css-bold {
+  font-weight: 700 !important;
+  font-size: 17px !important;
+}
+.css-fonts {
+  font-size: 50px;
+  font-weight: 650 !important;
+}
+.css-li {
+  color: black;
+}
+.css-li:hover {
+  border-bottom: 1px groove #dc3545;
+  color: #dc3545;
+}
+.css__btn:hover {
+  background-color: rgba(240, 128, 128, 0.301);
+  color: #dc3545;
+}
+.bg__yellow{
+background-color: #dc3545;
+color: white;
+}
+.bg__yellow:hover{
+  background-color: transparent;
+  border: 2px dotted #dc3545;
+  color: #dc3545;
+}
+.auto{
+  margin: 0 auto;
+}
+main{
+  background-color: rgb(245, 210, 53);
+}
+.border-radius{
+  border: 1px solid transparent ;
+  border-radius: 15px;
+}
+.border-radius1{
+  border-radius: 15px 15px 0 0;
+}
+.w-65{
+  width: 65%;
+}
+.line__hight{
+line-height: 18px;
+}
+.border-radius:hover{
+  transform: scale(1.1);
+}
+.card{
+    width: 31%;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.shadow{
+  box-shadow: 1px 1px 18px #252424b6!important;
+}
+.filters{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+input[type="checkbox"]{
+  display: none;
+}
+label{
+  width: 33.33%;
+  height: 80px ;
+  background-color:#343a40;
+  border-right: 1px solid rgb(84, 84, 84);
+  padding-left: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+input[type=checkbox] + label {
+  color: white;
+}
+input[type=checkbox]:checked + label {
+  background-color:#dc3545;
+}
+.label1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fa-solid.fa-circle-check{
+font-size: 28px;
+color:#343a40;
+}
+.bg__color{
+  background-color: rgb(245, 210, 53);
+}
+.bg__yellow:hover{
+  background-color: transparent;
+  border: 2px dotted #dc3545;
+  color: #dc3545;
+}
+input, button{
+  font-size:small!important;
+}
+.m__t{
+  margin-top: 29px;
+}
+.hei{
+  height: 54px;
+}
+.label3{
+  width: 33.33%;
+  height: 30px ;
+  background-color: transparent;
+  border-right: none;
+  padding-left: 0;
+  font-weight: bold;
+  cursor:auto
+}
+@media (max-width:768px) {
+  .cards{
+    justify-content: center;
+  }
+  .card{
+    width: 45%;
+  }
+}
+@media (max-width:426px) {
+  .navbar-nav{
+    background-color: #343a40;
+    padding: 15px 0 20px 15px;
+  }
+  .navbar-nav li a{
+    color: white;
+  }
+  .card{
+    width: 100%;
+    margin-left: 18px;
+  }
+  label{
+    width: 100%;
+    border-bottom: 1px solid rgb(84, 84, 84);
+    margin: 0;
+  }
+}
+@media (min-width: 1026px){
+  .bg__color {
+    height: calc(100vh - 182px);
+  }
+}
